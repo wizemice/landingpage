@@ -954,6 +954,16 @@
   line-height: 140%;
 }
 
+.text-block-5 a {
+  text-decoration: none;
+  color: inherit;
+  transition: 275ms ease-out all;
+}
+
+.text-block-5 a:hover {
+  opacity: 0.72;
+}
+
 .bold-text-14 {
   color: #f4f4f4;
   -webkit-text-stroke-color: #f4f4f4;
