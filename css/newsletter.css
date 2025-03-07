@@ -1,0 +1,7 @@
+.ml-form-recaptcha {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 0;
+}
