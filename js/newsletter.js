@@ -10,14 +10,14 @@
     const callback = (mutationList, observer) => {
       for (const mutation of mutationList) {
         if (mutation.type === "childList") {
-          console.log(`The child node ${targetNode} just changed with new newsletter elements added.`);
+          // console.log('The child node', targetNode, 'just changed with new newsletter elements added.');
           adjustCaptchaToCenter();
           observer.disconnect();
         }
       }
     }; 
     const observer = new MutationObserver(callback);
-    observer.observe(targetNode, config);  
+    observer.observe(targetNode, config);
   }
 
   function adjustCaptchaToCenter(_) {
